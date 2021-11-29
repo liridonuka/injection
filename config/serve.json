@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://aralytiksdevops.sharepoint.com/sites/Incject/SitePages/Home.aspx",
+      "customActions": {
+        "2f256250-5eca-4b9c-8eb7-9db66675cee2": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "cssurl": "/Style%20Library/custom.css"
+          }
+        }
+      }
+    },
+    "injectCss": {
+      "pageUrl": "https://aralytiksdevops.sharepoint.com/sites/Incject/SitePages/Home.aspx",
+      "customActions": {
+        "2f256250-5eca-4b9c-8eb7-9db66675cee2": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "cssurl": "/Style%20Library/custom.css"
+          }
+        }
+      }
+    }
+  }
+}
